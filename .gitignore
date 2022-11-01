@@ -1,0 +1,8 @@
+# ignore data file
+data/
+
+# ignore checkpoints to avoid merging conflicts
+.ipynb_checkpoints/
+
+# ignore apple
+.DS_Store/
