@@ -6,3 +6,6 @@ data/
 
 # ignore apple
 .DS_Store/
+
+# ignore VSCode config files
+.vscode/
