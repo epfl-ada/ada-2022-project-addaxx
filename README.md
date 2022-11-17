@@ -28,3 +28,51 @@ P2 deliverable (done as a team): GitHub repository with the following:
         Organization within the team: A list of internal milestones up until project Milestone P3.
         Questions for TAs (optional): Add here any questions you have for us related to the proposed project.
     Notebook containing initial analyses and data handling pipelines. We will grade the correctness, quality of code, and quality of textual descriptions.
+
+# Community Discovery among actors in the movie industry: A statistical and Temporal Analysis
+
+## Abstract
+
+Considerable study has been conducted on the subject of actors in the movie industry, but the bulk of it has focused on individual performers and their properties. We intend to accomplish something different through this project. We want to look at how various actors connect with one another and establish communities. In order to achieve this we will first create an actor co-occurence network which will allow us to trace the growth of actors and emphasize the global behavior of the movie industry. We then employ community detection algorithms to separate its moving parts. We'll investigate the temporal evolution of these communities to see how they change over time in terms of composition, how they relate to each other, as well as their evolution with respect to their statistical properties (based on the actors attributes e.g occupation, gender, age, etc. and the properties of movies where they cooperated e.g genre, rating etc.).
+
+## Research Questions
+
+1. Is it sound to assume that the rising stars of the movie industry are the ones who are most likely to be part of the largest communities? If so, how does this assumption hold up over time?
+
+2. Do actors' country of citizenship along with the dominant genre of movies they cooperate in fully explain the communities that are formed? If not, what other factors are at play?
+
+3. How do the communities evolve over time? Could the most noticeable changes be correlated to major global events?
+
+## Proposed additional datasets
+
+We will use a collection of scraping and query scripts to collect data from wikidata, potentially enriching it with data from IMDB. 
+
+The data collected from wikidata includes:
+- Actor's occupation: actor, director, producer, etc.
+- Actor's country of citizenship
+- Actor's discription (can be used to complete some missing values for gender and age)
+
+## Data handling pipeline 
+
+**(To be completed)**
+
+## Methods
+
+We will use the following methods:
+- graph theory: to create the actor co-occurence network (nodes: actors, edges: number of movies they cooperated in)
+(maths: https://en.wikipedia.org/wiki/graph_theory, **to be completed**)
+- louvain algorithm: to detect communities in the network
+(maths: https://en.wikipedia.org/wiki/Louvain_Modularity, **to be completed**)
+
+## Proposed timeline
+
+**(To be completed)**
+
+
+
+
+
+
+
+
+
