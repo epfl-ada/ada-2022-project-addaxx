@@ -24,21 +24,32 @@ We will use a collection of scraping and query scripts to collect data from wiki
 The data collected from wikidata includes:
 - Actor's occupations: actor, director, producer, etc.
 - Actor's country of citizenship
-- Actor's discription (can be used to complete some missing values for gender and age)
 
 
 ## Methods
 
+<<<<<<< HEAD
 **Step 1: Data scraping, pre-processing and dataset cleaning** <br>
+=======
+**Step 1: Data spre-processing and dataset cleaning** <br>
+>>>>>>> 14bf241d292c855be0891adccb4fc67b85ae0c25
 We are going to use 2 of the provided files: the *movie_metadata* dataset and the *character_metadata* dataset. We decide to include all the available years in our study (namely from 1888 to 2016, since the dataset includes previsionned movies). The main features we want for our study are :
 - For the actors : gender, date of birth, nationality, occupations
 - For the movies : date of release, genres, languages
 
+<<<<<<< HEAD
 The first step is to clean the data by removing rows not including the needed features, and try to scrape missing values. We also convert certain columns to interpretable and uniform formats (dates are converted in years, etc). Some actor names are not written in english, but this should not impact the study as we do not plan on studying names within a community. 
 
 **Step 2: Network creation and communities calculations** <br>
 For the network, we only keep pairs of actors that played in more than two movies together. Logically, the movies studied will only include those that have at least 2 actors. To reduce the size of the dataset, we only keep the movies with strictly more than 2 actors.
 Each node of the network is an actor, and each edge between two actors describes their number of common movies. Thus, a single movie will generate multiple edges (in fact $\sum_{1}^{N-1}$ edges, where N is the number of actors in the movie). Then the communities are computed via the Louvain algorithm.
+=======
+The first step is to clean the data by removing rows not including the needed features. We also convert certain columns to interpretable and uniform formats (dates are converted in years, etc). Some actor names are not written in english, but this should not impact the study as we do not plan on studying names within a community. 
+
+**Step 2: Network creation and communities calculations** <br>
+For the network, we only keep pairs of actors that played in more than two movies together. Logically, the movies studied will only include those that have at least 2 actors. To reduce the size of the dataset, we only keep the movies with strictly more than 2 actors.
+Each node of the network is an actor, and each edge between two actors describes their number of common movies. Thus, a single movie will generate multiple edges (in fact $\sum_{1}^{N-1}$ edges, where N is the number of actors in the movie). Then the communities are computed via the Louvain algorithm. We will then use the communities populations to query actors country of citizenship and occupations from Wikidata . We only query these features for the actors of the top 20 communities for time constraints. The scraping and querying is done in the "scraping.ipynb" notebook.
+>>>>>>> 14bf241d292c855be0891adccb4fc67b85ae0c25
 
 **Step 3: Characterize the actors within each communities** <br>
 For each communities, observe features such as citizenship, genre, occupation and birthdate. 
