@@ -67,6 +67,43 @@ We will use the following methods:
 - louvain algorithm: to detect communities in the network
 (maths: https://en.wikipedia.org/wiki/Louvain_Modularity, **to be completed**)
 
+### Graph theory: 
+
+- A graph is a mathematical structure that consists of a finite set of vertices (or nodes) and a finite set of edges (or links) that connect pairs of vertices. We will use graphs in in order to model the actor co-occurence network.
+- Mathematically, a graph is defined as a pair **G** = (**V**, **E**) where **V** is a set of vertices and E is a set of edges. Each edge is a pair of vertices (**u**, **v**) where **u** and **v** are distinct vertices. In the context of our project, the nodes will be the actors and the edges will represent if the actors have cooperated in a movie. The weight of the edge will be the number of movies they have cooperated in.
+- In graph theory a degree of a node is the number of edges incident to it. In our case, the degree of a node will be the total number of movies the actor has cooperated in(movies can be counted multiple times if the actor has cooperated in them with multiple actors).
+- The adjacency matrix of a graph is a square matrix whose entries are defined by the adjacency relation. In our case, the adjacency matrix will be a matrix of size **n** x **n** where **n** is the number of actors. The entry in the $i^{th}$ row and $j^{th}$ column will be the number of movies the $i^{th}$ actor has cooperated in with the $j^{th}$ actor. The diagonal of the matrix will be the degree of each actor.
+### Louvain algorithm: 
+
+- The complexity of the community detection problem stems from the vague definition of a community. In order to overcome this, we will use the louvain algorithm which is a fast and accurate community detection algorithm. It is based on the modularity maximization principle which states that the best partition of a network is the one that maximizes the modularity of the network. The modularity of a network is a measure of the density of edges within communities compared to the density of edges between communities.
+
+- Mathematically, the modularity of a partition of a graph **G** = (**V**, **E**) is defined as:
+    - $Q = \frac{1}{2m} \sum_{ij} \left[ A_{ij} - \frac{k_i k_j}{2m} \right] \delta(c_i, c_j)$ where 
+        - $A_{ij}$ is the adjacency matrix of the graph
+        - $k_i$ is the degree of the $i^{th}$ node
+        - $m$ is the total number of edges in the graph
+        - $\delta(c_i, c_j)$ is 1 if the $i^{th}$ and $j^{th}$ nodes belong to the same community and 0 otherwise
+        - $c_i$ and $c_j$ are the communities to which the $i^{th}$ and $j^{th}$ nodes belong to respectively
+    - Based on the above equation, the modularity of a community **c** can be calculated as:
+        - $Q_c = \frac{\sum_{in}}{2m} - (\frac{(\sum_{tot})}{2m})^2$ where
+            - $\sum_{in}$  is the sum of edge weights between nodes within the community 
+            - $\sum_{tot}$ is the sum of all edge weights for nodes within the community
+
+
+        
+
+- The Louvain algorithm is a greedy algorithm that iteratively improves the modularity of the network by moving nodes between communities. The algorithm is based on the following steps:
+
+1. Assign each node to its own community.
+2. While modularity can be increased:
+    1. For each node, calculate the increase in modularity if the node was moved to each of its neighboring communities.
+    2. Move the node to the community that maximizes the increase in modularity.
+3. Return the communities.
+
+- It is worth mentioning that the Louvain algorithm is a heuristic algorithm and does not guarantee to find the optimal partition of the network. The randomisation of the algorithm can lead to different results each time it is run. In order to overcome this, for simplicity, we fixed the random seed, but in the future we might considere ways to  increase the determinism of the algorithm such as running it multiple times and taking the partition that maximizes the average modularity of the respective communities or potentially comparing multiple community discovery algorithms according to the same principle.
+
+
+
 ## Proposed timeline
 
 
