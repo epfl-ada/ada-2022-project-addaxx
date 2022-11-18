@@ -24,42 +24,36 @@ We will use a collection of scraping and query scripts to collect data from wiki
 The data collected from wikidata includes:
 - Actor's occupations: actor, director, producer, etc.
 - Actor's country of citizenship
-- Actor's discription (can be used to complete some missing values for gender and age)
 
-## Data handling pipeline 
-
-**(To be completed)**
 
 ## Methods
 
-**Step 1: Data scraping, pre-processing and dataset cleaning**
-
+**Step 1: Data spre-processing and dataset cleaning** <br>
 We are going to use 2 of the provided files: the *movie_metadata* dataset and the *character_metadata* dataset. We decide to include all the available years in our study (namely from 1888 to 2016, since the dataset includes previsionned movies). The main features we want for our study are :
-- For the actors :
+- For the actors : gender, date of birth, nationality, occupations
+- For the movies : date of release, genres, languages
 
-The first step is to clean the data by removing rows not including the needed features, and try to scrape missing values. We also convert certain columns to interpretable and uniform formats (dates are converted in years, etc). Some actor names are not written in english, but this should not impact the study as we do not plan on studying names within a community. 
+The first step is to clean the data by removing rows not including the needed features. We also convert certain columns to interpretable and uniform formats (dates are converted in years, etc). Some actor names are not written in english, but this should not impact the study as we do not plan on studying names within a community. 
 
-**Step 2: Network creation and communities calculations**
-
+**Step 2: Network creation and communities calculations** <br>
 For the network, we only keep pairs of actors that played in more than two movies together. Logically, the movies studied will only include those that have at least 2 actors. To reduce the size of the dataset, we only keep the movies with strictly more than 2 actors.
-Each node of the network is an actor, and each edge between two actors describes their number of common movies. Thus, a single movie will generate multiple edges (in fact sum(1 at N-1) edges, where N is the number of actors in the movie). Then the communities are computed via the Louvain algorithm.
+Each node of the network is an actor, and each edge between two actors describes their number of common movies. Thus, a single movie will generate multiple edges (in fact $\sum_{1}^{N-1}$ edges, where N is the number of actors in the movie). Then the communities are computed via the Louvain algorithm. We will then use the communities populations to query actors country of citizenship and occupations from Wikidata . We only query these features for the actors of the top 20 communities for time constraints. The scraping and querying is done in the "scraping.ipynb" notebook.
 
-**Step 3: Characterize the actors within each communities**
-
+**Step 3: Characterize the actors within each communities** <br>
 For each communities, observe features such as citizenship, genre, occupation and birthdate. 
 
-**Step 4: Characterize the movies within each communities**
-
+**Step 4: Characterize the movies within each communities** <br>
 For each community, observe features such as date of release, languages, genre. 
-
 From the 2 previous steps, try to find overarching clustering feature(s) for each community. Does each community represent a specific country of geographical area, of a specific type of genre production ? Are the movie produced spread accross time, or does a community reflet only one or two decade of the movie industry ? Are actors of different ages ? 
 
-**Step 5: Slice the analysis over time**
+**Step 5: Slice the analysis over time** <br>
 Perform a time analysis where we slice our network to only observe nodes and edges prior to the chosen year. For each community, how did it evolve over time? 
 
 **Step 6: Make a beautiful story out of our findings**
 
 
+
+## More details about the network methodology 
 
 We will use the following methods:
 - graph theory: to create the actor co-occurence network (nodes: actors, edges: number of movies they cooperated in)
@@ -106,13 +100,15 @@ We will use the following methods:
 
 ## Proposed timeline
 
+- 25.11: step 1 and 2
+- 02.12: homework 2 :)
+- 09.12: step 3 and 4
+- 16.12: step 5
+- 23.12: step 6
 
+## Team organization
 
-
-
-
-
-
-
-
-
+- Ahmed : scrapping, data processing, network actors analysis
+- Aziz : scrapping,  network time analysis, website
+- Loïc: organize meetings, network visualization, data processing
+- Solène : network visualization, data story, network movies analysis
