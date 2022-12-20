@@ -1,0 +1,1205 @@
+,Community,Most_frequent_genres,Most_frequent_countries,Most_frequent_languages,Average_movie_release_year
+0,1,"Drama                 0.107916
+Comedy                0.085988
+Thriller              0.050126
+Romance Film          0.043045
+Action                0.039466
+                        ...   
+Point of view shot    0.000025
+Mondo film            0.000025
+Giallo                0.000025
+Coming-of-age film    0.000025
+Foreign legion        0.000025
+Name: Movie_genres, Length: 287, dtype: float64","United States of America                    0.714691
+United Kingdom                              0.091647
+Germany                                     0.039026
+Canada                                      0.035211
+France                                      0.031886
+                                              ...   
+Indonesia                                   0.000098
+Malaysia                                    0.000098
+Singapore                                   0.000098
+Turkey                                      0.000098
+Socialist Federal Republic of Yugoslavia    0.000098
+Name: Movie_countries, Length: 69, dtype: float64","English Language      0.680149
+ English Language     0.083711
+                      0.039139
+ Spanish Language     0.034007
+French Language       0.031291
+                        ...   
+ Xhosa Language       0.000101
+ Gujarati Language    0.000101
+Mende Language        0.000101
+Friulian Language     0.000101
+Sinhala Language      0.000101
+Name: Movie_languages, Length: 167, dtype: float64",1995.083968511808
+1,2,"Drama               0.121557
+Black-and-white     0.075548
+Comedy              0.071913
+Romance Film        0.051315
+Action              0.040312
+                      ...   
+Jukebox musical     0.000033
+Cyberpunk           0.000033
+Softcore Porn       0.000033
+Sci-Fi Adventure    0.000033
+Vampire movies      0.000033
+Name: Movie_genres, Length: 272, dtype: float64","United States of America                    0.842338
+United Kingdom                              0.072985
+Italy                                       0.018462
+France                                      0.016123
+Canada                                      0.008615
+Germany                                     0.008369
+Spain                                       0.004308
+West Germany                                0.003446
+England                                     0.002831
+Japan                                       0.002831
+Australia                                   0.001969
+Mexico                                      0.001969
+Austria                                     0.001231
+Switzerland                                 0.001108
+Hong Kong                                   0.001108
+Yugoslavia                                  0.001108
+Ireland                                     0.000862
+Sweden                                      0.000862
+Netherlands                                 0.000738
+Israel                                      0.000615
+New Zealand                                 0.000615
+Denmark                                     0.000492
+South Korea                                 0.000369
+Kingdom of Great Britain                    0.000369
+Hungary                                     0.000369
+Greece                                      0.000369
+Iran                                        0.000369
+Morocco                                     0.000246
+Argentina                                   0.000246
+South Africa                                0.000246
+Czech Republic                              0.000246
+Libya                                       0.000246
+Belgium                                     0.000246
+Norway                                      0.000246
+Singapore                                   0.000246
+Finland                                     0.000246
+Portugal                                    0.000246
+Soviet Union                                0.000246
+Russia                                      0.000246
+Kuwait                                      0.000123
+Malta                                       0.000123
+Peru                                        0.000123
+Brazil                                      0.000123
+Slovakia                                    0.000123
+Zimbabwe                                    0.000123
+Romania                                     0.000123
+Philippines                                 0.000123
+Crime                                       0.000123
+Panama                                      0.000123
+Lebanon                                     0.000123
+Algeria                                     0.000123
+Tunisia                                     0.000123
+Croatia                                     0.000123
+India                                       0.000123
+Puerto Rico                                 0.000123
+Taiwan                                      0.000123
+Socialist Federal Republic of Yugoslavia    0.000123
+Name: Movie_countries, dtype: float64","English Language     0.742041
+ English Language    0.073502
+                     0.054775
+Silent film          0.032069
+French Language      0.022940
+                       ...   
+Inuktitut            0.000117
+France               0.000117
+ Finnish Language    0.000117
+Persian Language     0.000117
+ Danish Language     0.000117
+Name: Movie_languages, Length: 82, dtype: float64",1954.8681083967429
+2,3,"Drama              0.197330
+World cinema       0.131666
+Romance Film       0.095665
+Bollywood          0.091017
+Action             0.072763
+                     ...   
+Anime              0.000085
+Steampunk          0.000085
+Fantasy Drama      0.000085
+Comedy Western     0.000085
+Medical fiction    0.000085
+Name: Movie_genres, Length: 151, dtype: float64","India                         0.926721
+United States of America      0.024339
+United Kingdom                0.022769
+Canada                        0.003926
+Germany                       0.003141
+France                        0.003141
+Pakistan                      0.002879
+England                       0.001047
+Italy                         0.001047
+Denmark                       0.000785
+Switzerland                   0.000785
+Soviet Union                  0.000785
+Japan                         0.000785
+Australia                     0.000785
+Sweden                        0.000785
+Finland                       0.000523
+Spain                         0.000523
+Norway                        0.000523
+Bangladesh                    0.000523
+Hong Kong                     0.000523
+Afghanistan                   0.000523
+Thailand                      0.000262
+Hungary                       0.000262
+Czech Republic                0.000262
+Ireland                       0.000262
+German Democratic Republic    0.000262
+Uzbekistan                    0.000262
+South Africa                  0.000262
+Belgium                       0.000262
+Austria                       0.000262
+Sri Lanka                     0.000262
+Slovakia                      0.000262
+Tunisia                       0.000262
+Name: Movie_countries, dtype: float64","Hindi Language        0.652428
+ English Language     0.053761
+ Urdu Language        0.042300
+                      0.038966
+Telugu language       0.035632
+                        ...   
+ Thai Language        0.000208
+ Haryanvi Language    0.000208
+ Hebrew Language      0.000208
+Afrikaans Language    0.000208
+ Pashto language      0.000208
+Name: Movie_languages, Length: 78, dtype: float64",1990.7807158119658
+3,4,"Drama                 0.124247
+Comedy                0.069493
+Thriller              0.050982
+Romance Film          0.043872
+Action                0.039017
+                        ...   
+Prison escape         0.000043
+Coming-of-age film    0.000043
+Essay Film            0.000043
+B-Western             0.000043
+Gulf War              0.000043
+Name: Movie_genres, Length: 274, dtype: float64","United States of America    0.436461
+United Kingdom              0.331068
+France                      0.037589
+Germany                     0.030649
+Italy                       0.025734
+                              ...   
+Indonesia                   0.000145
+Lithuania                   0.000145
+Crime                       0.000145
+Malta                       0.000145
+Slovakia                    0.000145
+Name: Movie_countries, Length: 64, dtype: float64","English Language       0.663636
+ English Language      0.085110
+                       0.048746
+French Language        0.034326
+ Spanish Language      0.022884
+                         ...   
+ Bulgarian Language    0.000157
+ Khmer language        0.000157
+ Dari                  0.000157
+Zulu Language          0.000157
+Somali Language        0.000157
+Name: Movie_languages, Length: 135, dtype: float64",1978.1341629399183
+4,5,"Drama                  0.260467
+Romance Film           0.111209
+Action                 0.105333
+World cinema           0.091083
+Musical                0.065227
+                         ...   
+Cult                   0.000147
+Supernatural           0.000147
+Ensemble Film          0.000147
+Slice of life story    0.000147
+Fantasy Comedy         0.000147
+Name: Movie_genres, Length: 94, dtype: float64","India                       0.990881
+United States of America    0.002364
+Canada                      0.001689
+Sri Lanka                   0.001013
+United Kingdom              0.000675
+Pakistan                    0.000675
+South Africa                0.000338
+Malayalam Language          0.000338
+Switzerland                 0.000338
+France                      0.000338
+United Arab Emirates        0.000338
+Australia                   0.000338
+Afghanistan                 0.000338
+Taiwan                      0.000338
+Name: Movie_countries, dtype: float64","Tamil Language          0.364802
+Telugu language         0.247749
+Hindi Language          0.141610
+Malayalam Language      0.085402
+                        0.054297
+ Tamil Language         0.026467
+ Telugu language        0.021828
+Kannada Language        0.014461
+ English Language       0.012824
+ Urdu Language          0.006821
+ Kannada Language       0.004093
+ Malayalam Language     0.002729
+ Punjabi language       0.002456
+ Marathi Language       0.001637
+ Bhojpuri Language      0.001364
+Marathi Language        0.001364
+Bengali Language        0.001091
+Punjabi language        0.000819
+ Bengali Language       0.000819
+English Language        0.000819
+ Russian Language       0.000819
+ Assamese Language      0.000546
+Sinhala Language        0.000546
+French Language         0.000546
+ Gujarati Language      0.000546
+ Hindustani language    0.000273
+ Hindi Language         0.000273
+Silent film             0.000273
+ Arabic Language        0.000273
+ Dari                   0.000273
+ French Language        0.000273
+ Tulu Language          0.000273
+ Nepali Language        0.000273
+ Chinese language       0.000273
+ Turkish Language       0.000273
+ German Language        0.000273
+Bhojpuri Language       0.000273
+ Pashto language        0.000273
+Name: Movie_languages, dtype: float64",1993.1726114649682
+5,6,"Chinese Movies       0.175561
+World cinema         0.099111
+Action               0.090640
+Martial Arts Film    0.080686
+Action/Adventure     0.075815
+                       ...   
+Samurai cinema       0.000212
+Television movie     0.000212
+Anime                0.000212
+Dogme 95             0.000212
+Blaxploitation       0.000212
+Name: Movie_genres, Length: 143, dtype: float64","Hong Kong                   0.626054
+China                       0.164751
+United States of America    0.071264
+Taiwan                      0.034483
+France                      0.017625
+Japan                       0.016858
+United Kingdom              0.013027
+South Korea                 0.013027
+Germany                     0.008429
+Singapore                   0.006130
+Thailand                    0.004598
+Italy                       0.003831
+Australia                   0.003831
+Canada                      0.003065
+India                       0.002299
+New Zealand                 0.002299
+Spain                       0.002299
+Ireland                     0.000766
+United Arab Emirates        0.000766
+Portugal                    0.000766
+Norway                      0.000766
+Luxembourg                  0.000766
+Brazil                      0.000766
+Czech Republic              0.000766
+Malaysia                    0.000766
+Name: Movie_countries, dtype: float64"," Cantonese            0.193655
+Standard Mandarin     0.135417
+ Standard Mandarin    0.129735
+Standard Cantonese    0.109848
+Cantonese             0.095644
+                        ...   
+Tibetan languages     0.000473
+ Taiwanese            0.000473
+ Teochew              0.000473
+ Russian Language     0.000473
+Khmer language        0.000473
+Name: Movie_languages, Length: 67, dtype: float64",1994.7707212055975
+6,7,"Comedy           0.098847
+Family Film      0.083415
+Animation        0.083122
+Drama            0.054112
+Short Film       0.049619
+                   ...   
+Avant-garde      0.000098
+Fantasy Drama    0.000098
+Beach Film       0.000098
+Albino bias      0.000098
+Kafkaesque       0.000098
+Name: Movie_genres, Length: 227, dtype: float64","United States of America    0.828086
+Canada                      0.037697
+Germany                     0.033140
+United Kingdom              0.027755
+Japan                       0.017399
+France                      0.012013
+Australia                   0.010771
+Italy                       0.003314
+Netherlands                 0.002486
+Spain                       0.002486
+India                       0.002486
+Belgium                     0.002486
+South Korea                 0.001657
+China                       0.001243
+South Africa                0.001243
+West Germany                0.001243
+Ireland                     0.001243
+Hong Kong                   0.001243
+Switzerland                 0.000829
+Mexico                      0.000829
+Brazil                      0.000829
+Czech Republic              0.000829
+United Arab Emirates        0.000829
+Denmark                     0.000829
+Argentina                   0.000829
+Luxembourg                  0.000829
+Hungary                     0.000414
+Austria                     0.000414
+Russia                      0.000414
+Sweden                      0.000414
+Israel                      0.000414
+Wales                       0.000414
+Lithuania                   0.000414
+Iceland                     0.000414
+Slovakia                    0.000414
+Tunisia                     0.000414
+New Zealand                 0.000414
+Kingdom of Great Britain    0.000414
+Poland                      0.000414
+Name: Movie_countries, dtype: float64","English Language      0.737525
+                      0.097053
+ English Language     0.050295
+ Spanish Language     0.020432
+French Language       0.015324
+                        ...   
+ Silent film          0.000393
+Tagalog language      0.000393
+ Filipino language    0.000393
+ Malay Language       0.000393
+Dutch Language        0.000393
+Name: Movie_languages, Length: 72, dtype: float64",1984.9938505203406
+7,8,"Drama                        0.097243
+Comedy                       0.080870
+Thriller                     0.056134
+Action                       0.053866
+Crime Fiction                0.044085
+                               ...   
+Heaven-Can-Wait Fantasies    0.000071
+Baseball                     0.000071
+Female buddy film            0.000071
+Art film                     0.000071
+Outlaw                       0.000071
+Name: Movie_genres, Length: 249, dtype: float64","United States of America                    0.718246
+United Kingdom                              0.065347
+Germany                                     0.040170
+France                                      0.035926
+Canada                                      0.031966
+Spain                                       0.023479
+Italy                                       0.016124
+Australia                                   0.012164
+Japan                                       0.009618
+Mexico                                      0.005658
+Hong Kong                                   0.003395
+West Germany                                0.003112
+New Zealand                                 0.002829
+South Africa                                0.002263
+Switzerland                                 0.002263
+Ireland                                     0.001980
+Belgium                                     0.001980
+Netherlands                                 0.001980
+Poland                                      0.001697
+Argentina                                   0.001414
+Denmark                                     0.001414
+India                                       0.001414
+Austria                                     0.001132
+Portugal                                    0.001132
+Czech Republic                              0.001132
+South Korea                                 0.000849
+Sweden                                      0.000849
+Yugoslavia                                  0.000849
+Brazil                                      0.000849
+Iceland                                     0.000849
+Kingdom of Great Britain                    0.000566
+England                                     0.000566
+China                                       0.000566
+Philippines                                 0.000566
+Romania                                     0.000566
+Hungary                                     0.000566
+Jamaica                                     0.000283
+Colombia                                    0.000283
+Greece                                      0.000283
+Cuba                                        0.000283
+Israel                                      0.000283
+Thailand                                    0.000283
+Finland                                     0.000283
+Morocco                                     0.000283
+United Arab Emirates                        0.000283
+Peru                                        0.000283
+Norway                                      0.000283
+Slovak Republic                             0.000283
+Luxembourg                                  0.000283
+Slovenia                                    0.000283
+Russia                                      0.000283
+Socialist Federal Republic of Yugoslavia    0.000283
+Name: Movie_countries, dtype: float64","English Language       0.644804
+ English Language      0.088586
+ Spanish Language      0.047984
+                       0.033504
+French Language        0.033504
+                         ...   
+Slovak Language        0.000284
+ Gujarati Language     0.000284
+Mende Language         0.000284
+Friulian Language      0.000284
+ Norwegian Language    0.000284
+Name: Movie_languages, Length: 114, dtype: float64",1996.7485611510792
+8,9,"Drama               0.120058
+Comedy              0.059058
+Thriller            0.049927
+Romance Film        0.047596
+Action              0.035260
+                      ...   
+Gulf War            0.000097
+School story        0.000097
+Dance               0.000097
+Bollywood           0.000097
+Werewolf fiction    0.000097
+Name: Movie_genres, Length: 236, dtype: float64","United States of America    0.406466
+United Kingdom              0.290333
+Germany                     0.055869
+France                      0.053045
+Italy                       0.024168
+Ireland                     0.023540
+Canada                      0.023227
+Spain                       0.018519
+Australia                   0.012869
+England                     0.011299
+Japan                       0.008788
+Netherlands                 0.006277
+New Zealand                 0.005336
+Denmark                     0.004394
+Sweden                      0.004080
+Czech Republic              0.004080
+Hungary                     0.004080
+West Germany                0.002825
+Luxembourg                  0.002825
+Norway                      0.002511
+China                       0.002511
+Hong Kong                   0.002197
+Belgium                     0.002197
+Mexico                      0.002197
+Russia                      0.001883
+Switzerland                 0.001883
+India                       0.001569
+Austria                     0.001569
+Israel                      0.001569
+Scotland                    0.001569
+Yugoslavia                  0.001255
+Romania                     0.001255
+South Africa                0.001255
+Greece                      0.000942
+Poland                      0.000942
+Finland                     0.000942
+Kingdom of Great Britain    0.000942
+Malta                       0.000628
+Brazil                      0.000628
+Iceland                     0.000628
+Portugal                    0.000628
+Morocco                     0.000628
+United Arab Emirates        0.000628
+Slovakia                    0.000628
+Argentina                   0.000628
+Croatia                     0.000314
+Bolivia                     0.000314
+Lithuania                   0.000314
+Bulgaria                    0.000314
+Bahamas                     0.000314
+Panama                      0.000314
+Cyprus                      0.000314
+Colombia                    0.000314
+Slovenia                    0.000314
+Northern Ireland            0.000314
+Turkey                      0.000314
+Tunisia                     0.000314
+Name: Movie_countries, dtype: float64","English Language       0.560894
+ English Language      0.119926
+French Language        0.050279
+                       0.035009
+ Spanish Language      0.030912
+                         ...   
+ Navajo Language       0.000372
+Tagalog language       0.000372
+ Bulgarian Language    0.000372
+Sinhala Language       0.000372
+Dutch Language         0.000372
+Name: Movie_languages, Length: 120, dtype: float64",1997.8548553719008
+9,10,"Drama               0.284906
+Action              0.115511
+Romance Film        0.086038
+Comedy              0.070557
+Thriller            0.064900
+                      ...   
+Courtroom Drama     0.000298
+Japanese Movies     0.000298
+Historical Epic     0.000298
+Satire              0.000298
+Action Thrillers    0.000298
+Name: Movie_genres, Length: 71, dtype: float64","India                       0.992614
+Malayalam Language          0.001477
+Japan                       0.001477
+United States of America    0.001477
+Pakistan                    0.000739
+France                      0.000739
+United Kingdom              0.000739
+Canada                      0.000739
+Name: Movie_countries, dtype: float64","Malayalam Language     0.482892
+Tamil Language         0.192605
+                       0.144592
+Telugu language        0.071192
+Hindi Language         0.044702
+ Tamil Language        0.024283
+ Telugu language       0.009934
+ Malayalam Language    0.008278
+ English Language      0.006623
+Kannada Language       0.003863
+ Kannada Language      0.002759
+ Urdu Language         0.001656
+ Bengali Language      0.001104
+ Marathi Language      0.000552
+French Language        0.000552
+ German Language       0.000552
+ Bhojpuri Language     0.000552
+ French Language       0.000552
+Bengali Language       0.000552
+English Language       0.000552
+ Japanese Language     0.000552
+ Mongolian language    0.000552
+ Standard Mandarin     0.000552
+Name: Movie_languages, dtype: float64",1997.5087173100871
+10,11,"Animation             0.145833
+Japanese Movies       0.136218
+Anime                 0.129006
+Action                0.080929
+Fantasy               0.069712
+                        ...   
+Black comedy          0.000801
+Historical fiction    0.000801
+Detective             0.000801
+Detective fiction     0.000801
+Auto racing           0.000801
+Name: Movie_genres, Length: 67, dtype: float64","Japan                       0.750000
+United States of America    0.161765
+Canada                      0.011029
+Italy                       0.011029
+Germany                     0.007353
+South Korea                 0.007353
+Australia                   0.007353
+United Kingdom              0.007353
+Netherlands                 0.003676
+Soviet Union                0.003676
+Finland                     0.003676
+Argentina                   0.003676
+France                      0.003676
+Luxembourg                  0.003676
+Belgium                     0.003676
+Spain                       0.003676
+China                       0.003676
+Hong Kong                   0.003676
+Name: Movie_countries, dtype: float64","Japanese Language       0.541916
+ English Language       0.176647
+                        0.152695
+English Language        0.062874
+ Italian Language       0.005988
+ German Language        0.005988
+ Korean Language        0.005988
+ Spanish Language       0.005988
+ Japanese Language      0.002994
+Japan                   0.002994
+ Turkish Language       0.002994
+ Hungarian language     0.002994
+ Dutch Language         0.002994
+ French Language        0.002994
+ Portuguese Language    0.002994
+Czech Language          0.002994
+Finnish Language        0.002994
+French Language         0.002994
+ Mandarin Chinese       0.002994
+Standard Mandarin       0.002994
+ Chinese language       0.002994
+Estonian Language       0.002994
+Name: Movie_languages, dtype: float64",1998.8433734939758
+11,12,"Drama                        0.163773
+Comedy                       0.075082
+World cinema                 0.071797
+Romance Film                 0.056781
+Thriller                     0.044815
+                               ...   
+Film & Television History    0.000235
+Softcore Porn                0.000235
+Kafkaesque                   0.000235
+Alien Film                   0.000235
+Children's Fantasy           0.000235
+Name: Movie_genres, Length: 180, dtype: float64","France                        0.332559
+Italy                         0.235636
+United States of America      0.159605
+United Kingdom                0.085897
+Germany                       0.034243
+Spain                         0.031341
+West Germany                  0.020313
+Portugal                      0.014510
+Canada                        0.011608
+Switzerland                   0.011608
+Belgium                       0.008706
+Luxembourg                    0.004643
+Australia                     0.004063
+Austria                       0.004063
+Mexico                        0.003482
+Netherlands                   0.002902
+Ireland                       0.002322
+Japan                         0.002322
+Greece                        0.002322
+Sweden                        0.001741
+Soviet Union                  0.001741
+Romania                       0.001741
+Brazil                        0.001741
+Denmark                       0.001741
+England                       0.001741
+Hungary                       0.001741
+Poland                        0.001161
+Israel                        0.001161
+Czech Republic                0.001161
+India                         0.001161
+Russia                        0.001161
+Yugoslavia                    0.000580
+Algeria                       0.000580
+South Korea                   0.000580
+Iran                          0.000580
+Taiwan                        0.000580
+Argentina                     0.000580
+Aruba                         0.000580
+German Democratic Republic    0.000580
+Scotland                      0.000580
+Thailand                      0.000580
+Finland                       0.000580
+Norway                        0.000580
+Iceland                       0.000580
+Croatia                       0.000580
+Libya                         0.000580
+Cuba                          0.000580
+Morocco                       0.000580
+Name: Movie_countries, dtype: float64","French Language                   0.304196
+English Language                  0.183217
+Italian Language                  0.162937
+ English Language                 0.121678
+                                  0.040559
+ German Language                  0.031469
+ Italian Language                 0.029371
+ Spanish Language                 0.022378
+ Russian Language                 0.014685
+German Language                   0.010490
+Portuguese Language               0.006993
+ Portuguese Language              0.006294
+ Arabic Language                  0.005594
+ Latin Language                   0.004895
+ French Language                  0.004196
+Russian Language                  0.004196
+ Japanese Language                0.003497
+Arabic Language                   0.003497
+Latin Language                    0.002797
+ Swedish Language                 0.002098
+Spanish Language                  0.002098
+Greek Language                    0.002098
+France                            0.001399
+ Cantonese                        0.001399
+ Dutch Language                   0.001399
+ Greek Language                   0.001399
+ Danish Language                  0.001399
+ Standard Mandarin                0.001399
+ Romanian Language                0.001399
+Polish Language                   0.001399
+ Ukrainian Language               0.001399
+ Hebrew Language                  0.001399
+ Serbian language                 0.000699
+ France                           0.000699
+ Turkish Language                 0.000699
+ Urdu Language                    0.000699
+ Luxembourgish language           0.000699
+ Zulu Language                    0.000699
+Serbo-Croatian                    0.000699
+Xhosa Language                    0.000699
+ Persian Language                 0.000699
+Turkish Language                  0.000699
+ Gaelic                           0.000699
+ Corsican Language                0.000699
+ Polish Language                  0.000699
+ Mandarin Chinese                 0.000699
+Japanese Language                 0.000699
+ Aramaic language                 0.000699
+ Assyrian Neo-Aramaic Language    0.000699
+ Western Language                 0.000699
+Apache                            0.000699
+ Czech Language                   0.000699
+ Hindi Language                   0.000699
+ Khmer language                   0.000699
+Old English language              0.000699
+ Swahili Language                 0.000699
+Name: Movie_languages, dtype: float64",1977.455896927651
+12,13,"Comedy                     0.117856
+Black-and-white            0.089691
+Drama                      0.076292
+Short Film                 0.049768
+Indie                      0.040744
+                             ...   
+Sword and sorcery films    0.000273
+Feminist Film              0.000273
+Crime                      0.000273
+Stop motion                0.000273
+Surrealism                 0.000273
+Name: Movie_genres, Length: 185, dtype: float64","United States of America    0.906286
+United Kingdom              0.042286
+France                      0.008000
+Italy                       0.008000
+Germany                     0.008000
+Australia                   0.005714
+Canada                      0.004571
+Yugoslavia                  0.002286
+New Zealand                 0.002286
+Poland                      0.001143
+Japan                       0.001143
+Israel                      0.001143
+West Germany                0.001143
+Hong Kong                   0.001143
+Netherlands                 0.001143
+India                       0.001143
+Sweden                      0.001143
+South Africa                0.001143
+Argentina                   0.001143
+Russia                      0.001143
+Name: Movie_countries, dtype: float64","English Language           0.661972
+ English Language          0.120724
+Silent film                0.072435
+                           0.040241
+ Spanish Language          0.023139
+French Language            0.021127
+Italian Language           0.009054
+German Language            0.007042
+ Russian Language          0.006036
+ German Language           0.006036
+ Italian Language          0.003018
+ Cantonese                 0.002012
+Japanese Language          0.002012
+Russian Language           0.002012
+ American Sign Language    0.002012
+Icelandic Language         0.001006
+ Korean Language           0.001006
+Estonian Language          0.001006
+Polish Language            0.001006
+Standard Mandarin          0.001006
+ Vietnamese Language       0.001006
+Spanish Language           0.001006
+ Yiddish Language          0.001006
+Hebrew Language            0.001006
+Esperanto Language         0.001006
+ Hawaiian language         0.001006
+Hindi Language             0.001006
+ Urdu Language             0.001006
+ Hebrew Language           0.001006
+ Dari                      0.001006
+Arabic Language            0.001006
+ Hungarian language        0.001006
+ Finnish Language          0.001006
+France                     0.001006
+Dutch Language             0.001006
+Filipino language          0.001006
+Name: Movie_languages, dtype: float64",1953.9273399014778
+13,14,"Japanese Movies       0.180098
+Drama                 0.124737
+World cinema          0.105116
+Action/Adventure      0.044149
+Action                0.042747
+                        ...   
+Comedy of Errors      0.000701
+Musical               0.000701
+Political thriller    0.000701
+LGBT                  0.000701
+Romantic fantasy      0.000701
+Name: Movie_genres, Length: 107, dtype: float64","Japan                       0.782235
+United States of America    0.097421
+Hong Kong                   0.048711
+United Kingdom              0.017192
+Germany                     0.011461
+South Korea                 0.011461
+France                      0.008596
+China                       0.008596
+Taiwan                      0.005731
+Italy                       0.002865
+Spain                       0.002865
+Australia                   0.002865
+Name: Movie_countries, dtype: float64","Japanese Language       0.638498
+ English Language       0.143192
+                        0.028169
+English Language        0.028169
+ Standard Mandarin      0.021127
+ Japanese Language      0.018779
+ Cantonese              0.018779
+Standard Mandarin       0.016432
+French Language         0.011737
+ Standard Cantonese     0.011737
+ Silent film            0.009390
+ German Language        0.007042
+Mandarin Chinese        0.004695
+ Mandarin Chinese       0.004695
+Tagalog language        0.004695
+Cantonese               0.004695
+ Russian Language       0.004695
+ Spanish Language       0.002347
+Taiwanese               0.002347
+ Min Nan                0.002347
+ Hokkien                0.002347
+ Latin Language         0.002347
+ Korean Language        0.002347
+Chinese language        0.002347
+ Portuguese Language    0.002347
+Standard Cantonese      0.002347
+ Italian Language       0.002347
+Name: Movie_languages, dtype: float64",1967.3462783171522
+14,15,"Comedy                       0.095577
+Drama                        0.093590
+Thriller                     0.049694
+Action                       0.047043
+Action/Adventure             0.040749
+                               ...   
+Addiction Drama              0.000166
+Mondo film                   0.000166
+Jukebox musical              0.000166
+Juvenile Delinquency Film    0.000166
+Foreign legion               0.000166
+Name: Movie_genres, Length: 221, dtype: float64","United States of America    0.716808
+United Kingdom              0.109222
+France                      0.034663
+Germany                     0.025507
+Canada                      0.023545
+Italy                       0.012426
+Australia                   0.010464
+Japan                       0.005886
+Ireland                     0.005886
+Hong Kong                   0.003924
+England                     0.003270
+Spain                       0.003270
+Sweden                      0.003270
+West Germany                0.003270
+Czech Republic              0.003270
+New Zealand                 0.003270
+Mexico                      0.002616
+South Africa                0.002616
+Romania                     0.002616
+Switzerland                 0.001962
+Israel                      0.001962
+Russia                      0.001962
+Luxembourg                  0.001962
+Yugoslavia                  0.001962
+Belgium                     0.001308
+Hungary                     0.001308
+Brazil                      0.001308
+China                       0.001308
+Netherlands                 0.001308
+Austria                     0.001308
+Iceland                     0.001308
+Malta                       0.000654
+India                       0.000654
+Norway                      0.000654
+Turkey                      0.000654
+Poland                      0.000654
+South Korea                 0.000654
+Greece                      0.000654
+Peru                        0.000654
+Name: Movie_countries, dtype: float64","English Language            0.692360
+ English Language           0.074375
+                            0.052738
+French Language             0.036511
+ Spanish Language           0.031778
+Italian Language            0.014875
+ German Language            0.014875
+ Italian Language           0.008790
+ Russian Language           0.007437
+German Language             0.006761
+Japanese Language           0.006085
+ Japanese Language          0.004057
+ Standard Mandarin          0.003381
+Russian Language            0.002705
+ Cantonese                  0.002705
+ American English           0.002705
+Latin Language              0.002028
+ Latin Language             0.002028
+Hebrew Language             0.002028
+ French Language            0.002028
+Cantonese                   0.001352
+ Arabic Language            0.001352
+Portuguese Language         0.001352
+ Yiddish Language           0.001352
+ Hungarian language         0.001352
+ Norwegian Language         0.001352
+Standard Mandarin           0.001352
+Romanian Language           0.001352
+Vietnamese Language         0.001352
+ Ukrainian Language         0.000676
+ Gujarati Language          0.000676
+ Sicilian Language          0.000676
+Scottish Gaelic language    0.000676
+German                      0.000676
+Hungarian language          0.000676
+ Standard Cantonese         0.000676
+ Silent film                0.000676
+ Vietnamese Language        0.000676
+ Italian                    0.000676
+ Swedish Language           0.000676
+ Korean Language            0.000676
+Esperanto Language          0.000676
+Norwegian Language          0.000676
+ Serbian language           0.000676
+Korean Language             0.000676
+Arabic Language             0.000676
+ American Sign Language     0.000676
+Persian Language            0.000676
+ Icelandic Language         0.000676
+Yiddish Language            0.000676
+ Mandarin Chinese           0.000676
+ Hindi Language             0.000676
+ Portuguese Language        0.000676
+Tibetan languages           0.000676
+ Danish Language            0.000676
+Name: Movie_languages, dtype: float64",1992.8712059064808
+15,16,"Black-and-white              0.132896
+Comedy                       0.105004
+Silent film                  0.082445
+Short Film                   0.075062
+Indie                        0.068089
+                               ...   
+Propaganda film              0.000410
+Action Comedy                0.000410
+Juvenile Delinquency Film    0.000410
+Comedy Thriller              0.000410
+Film                         0.000410
+Name: Movie_genres, Length: 119, dtype: float64","United States of America    0.987847
+United Kingdom              0.012153
+Name: Movie_countries, dtype: float64","English Language      0.619118
+ English Language     0.144118
+Silent film           0.139706
+                      0.080882
+ Spanish Language     0.004412
+German Language       0.004412
+French Language       0.002941
+ German Language      0.001471
+Esperanto Language    0.001471
+Yiddish Language      0.001471
+Name: Movie_languages, dtype: float64",1932.5333333333333
+16,17,"Black-and-white       0.178291
+Comedy                0.168852
+Short Film            0.121657
+Slapstick             0.051390
+Drama                 0.045621
+                        ...   
+Combat Films          0.000524
+Children's Fantasy    0.000524
+History               0.000524
+Domestic Comedy       0.000524
+Therimin music        0.000524
+Name: Movie_genres, Length: 119, dtype: float64","United States of America    0.994106
+United Kingdom              0.003929
+Switzerland                 0.001965
+Name: Movie_countries, dtype: float64","English Language     0.860294
+                     0.047794
+ English Language    0.038603
+Silent film          0.027574
+French Language      0.007353
+ Spanish Language    0.005515
+ Italian Language    0.003676
+Yiddish Language     0.003676
+ Russian Language    0.001838
+ German Language     0.001838
+Italian Language     0.001838
+Name: Movie_languages, dtype: float64",1943.9331941544885
+17,18,"Silent film               0.201037
+Black-and-white           0.184332
+Short Film                0.155530
+Drama                     0.141129
+Indie                     0.117512
+Romance Film              0.029378
+Western                   0.029378
+Comedy                    0.025922
+Action/Adventure          0.013249
+Action                    0.012673
+Adventure                 0.009217
+Crime Fiction             0.006912
+Horror                    0.006336
+Romantic drama            0.005760
+Comedy film               0.004608
+Swashbuckler films        0.004032
+Melodrama                 0.004032
+War film                  0.003456
+Thriller                  0.002880
+Costume drama             0.002880
+Film adaptation           0.002880
+Romantic comedy           0.002880
+Epic                      0.002880
+Comedy-drama              0.002304
+Family Drama              0.001728
+Musical                   0.001728
+Mystery                   0.001728
+Family Film               0.001728
+Sports                    0.001152
+Science Fiction           0.001152
+Creature Film             0.001152
+Monster movie             0.001152
+Epic Western              0.001152
+Pre-Code                  0.001152
+Fantasy                   0.001152
+Teen                      0.000576
+Screwball comedy          0.000576
+Psychological thriller    0.000576
+Political drama           0.000576
+Movie serial              0.000576
+Superhero movie           0.000576
+Biopic [feature]          0.000576
+Propaganda film           0.000576
+Combat Films              0.000576
+Culture & Society         0.000576
+Northern                  0.000576
+Stop motion               0.000576
+Christian film            0.000576
+History                   0.000576
+Historical Epic           0.000576
+Sci-Fi Horror             0.000576
+Anthology                 0.000576
+Expressionism             0.000576
+Spaghetti Western         0.000576
+Historical fiction        0.000576
+Crime                     0.000576
+Slasher                   0.000576
+Satire                    0.000576
+Boxing                    0.000576
+Name: Movie_genres, dtype: float64","United States of America    0.990172
+United Kingdom              0.004914
+Soviet Union                0.002457
+England                     0.002457
+Name: Movie_countries, dtype: float64","Silent film            0.322204
+ English Language      0.308848
+English Language       0.283806
+                       0.080134
+ Ukrainian Language    0.001669
+ American English      0.001669
+French Language        0.001669
+Name: Movie_languages, dtype: float64",1918.0611246943765
+18,19,"Comedy            0.088377
+Drama             0.060519
+Horror            0.057637
+Indie             0.051873
+Action            0.047070
+                    ...   
+Chinese Movies    0.000961
+Anti-war          0.000961
+Jungle Film       0.000961
+Anti-war film     0.000961
+Surrealism        0.000961
+Name: Movie_genres, Length: 157, dtype: float64","United States of America    0.896552
+United Kingdom              0.034483
+France                      0.021552
+Germany                     0.017241
+Canada                      0.008621
+West Germany                0.008621
+Hong Kong                   0.004310
+Romania                     0.004310
+South Africa                0.004310
+Name: Movie_countries, dtype: float64","English Language        0.778226
+                        0.084677
+ English Language       0.036290
+French Language         0.016129
+ Spanish Language       0.016129
+ American English       0.008065
+Russian Language        0.008065
+Japanese Language       0.008065
+ Standard Cantonese     0.004032
+ Russian Language       0.004032
+ Khmer language         0.004032
+ Vietnamese Language    0.004032
+ Cantonese              0.004032
+ French Language        0.004032
+ Korean Language        0.004032
+ Arabic Language        0.004032
+Klingon language        0.004032
+Korean Language         0.004032
+ German Language        0.004032
+Name: Movie_languages, dtype: float64",1992.7420814479638
+19,20,"Drama                     0.154239
+Thriller                  0.055158
+Action                    0.045965
+World cinema              0.042901
+Comedy                    0.041879
+                            ...   
+Airplanes and airports    0.001021
+Computer Animation        0.001021
+Samurai cinema            0.001021
+Chinese Movies            0.001021
+Vampire movies            0.001021
+Name: Movie_genres, Length: 128, dtype: float64","United States of America    0.306180
+Sweden                      0.292135
+United Kingdom              0.073034
+France                      0.056180
+Germany                     0.050562
+Denmark                     0.047753
+Italy                       0.028090
+West Germany                0.028090
+Norway                      0.022472
+Japan                       0.016854
+Finland                     0.014045
+Australia                   0.008427
+Canada                      0.008427
+Spain                       0.008427
+Switzerland                 0.005618
+Kingdom of Great Britain    0.002809
+Romania                     0.002809
+Czechoslovakia              0.002809
+Hong Kong                   0.002809
+Iceland                     0.002809
+New Zealand                 0.002809
+South Africa                0.002809
+Poland                      0.002809
+Scotland                    0.002809
+Yugoslavia                  0.002809
+Netherlands                 0.002809
+Austria                     0.002809
+Name: Movie_countries, dtype: float64","English Language        0.275964
+Swedish Language        0.267062
+ English Language       0.118694
+ German Language        0.050445
+French Language         0.050445
+ Swedish Language       0.026706
+                        0.026706
+Japanese Language       0.023739
+Italian Language        0.020772
+ Latin Language         0.017804
+ Danish Language        0.017804
+ Spanish Language       0.014837
+ Japanese Language      0.008902
+ Italian Language       0.005935
+ Arabic Language        0.005935
+Standard Mandarin       0.005935
+ Russian Language       0.005935
+Norwegian Language      0.005935
+Tibetan languages       0.002967
+ Norwegian Language     0.002967
+ Standard Mandarin      0.002967
+Czech Language          0.002967
+Finnish Language        0.002967
+Hindi Language          0.002967
+ Finnish Language       0.002967
+ French Language        0.002967
+ Cantonese              0.002967
+Spanish Language        0.002967
+ Yiddish Language       0.002967
+ Malay Language         0.002967
+Polish Language         0.002967
+Danish Language         0.002967
+ Scanian Language       0.002967
+Chinese language        0.002967
+ Portuguese Language    0.002967
+Name: Movie_languages, dtype: float64",1981.3034188034187
