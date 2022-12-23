@@ -45,7 +45,7 @@ We are going to use 2 of the provided files: the *movie_metadata* dataset and th
 - For the actors : gender, date of birth, nationality, occupations
 - For the movies : date of release, genres, languages
 
-<<<<<<< HEAD
+
 The first step is to clean the data by removing rows not including the needed features, and try to scrape missing values. We also convert certain columns to interpretable and uniform formats (dates are converted in years, etc). Some actor names are not written in english, but this should not impact the study as we do not plan on studying names within a community. 
 
 **Step 2: Network creation and communities calculations** <br>
