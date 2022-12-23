@@ -6,6 +6,7 @@ ___Study on the underlying people's network dynamics in the cinema industry___
 The notebook P3 contains the main bulk of the project , the notebook scraping was used to query from wikidata some additional features , the notebook exploration was used to generate the graphs that can be found in the website.
 The csv files used in the notebook can be found in the folder CSV_files
 
+Website : https://weloic.github.io/
 ## Abstract
 
 Considerable studies have been conducted on actors in the movie industry, but they mainly focused on individual performers and their properties. This project takes a different approach by analyzing how various actors connect with one another and establish communities. By creating an actor co-occurrence network, we can then employ community detection algorithms to cluster them by groups of actors recurrently playing in the same movies. We'll try to understand what characterizes the different subgroups, and whether actors regroup in homogenous communities or not. We'll focus on how actors relate to each other and the statistical properties of the community (based on the actors' attributes, e.g occupation, gender, age, etc. and the properties of movies where they cooperated, e.g genre, rating, etc.). We'll also investigate the temporal evolution of these communities to see how they change over time.
