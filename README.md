@@ -2,6 +2,10 @@
 
 ___Study on the underlying people's network dynamics in the cinema industry___
 
+
+The notebook P3 contains the main bulk of the project , the notebook scraping was used to query from wikidata some additional features , the notebook exploration was used to generate the graphs that can be found in the website.
+The csv files used in the notebook can be found in the folder CSV_files
+
 ## Abstract
 
 Considerable studies have been conducted on actors in the movie industry, but they mainly focused on individual performers and their properties. This project takes a different approach by analyzing how various actors connect with one another and establish communities. By creating an actor co-occurrence network, we can then employ community detection algorithms to cluster them by groups of actors recurrently playing in the same movies. We'll try to understand what characterizes the different subgroups, and whether actors regroup in homogenous communities or not. We'll focus on how actors relate to each other and the statistical properties of the community (based on the actors' attributes, e.g occupation, gender, age, etc. and the properties of movies where they cooperated, e.g genre, rating, etc.). We'll also investigate the temporal evolution of these communities to see how they change over time.
@@ -10,12 +14,20 @@ Considerable studies have been conducted on actors in the movie industry, but th
 ## Research Questions
 
 1. Is it sound to assume that the rising stars of the movie industry are the ones who are most likely to be part of the largest communities? If so, how does this assumption hold up over time?
+To answer this question the idea was to define a “rising star” as an actor who shows a sudden surge in a given centrality metrics. <br><br>
+
+Centrality measures are used to identify the most important nodes in a graph based on the connections they have to other nodes. In this case, the nodes would be actors and the edges would be movies they have acted in together.<br><br>
+
+One centrality measure that could be used to identify rising stars is degree centrality, which is a measure of the number of connections a node has to other nodes in the graph. Actors who suddenly appear in a large number of movies with other actors could be considered rising stars based on this measure.
+Another centrality measures that could be used include closeness centrality, which measures the average distance from a node to all other nodes in the graph, and eigenvector centrality, which measures the influence of a node based on the influence of its neighbors.<br><br>
+So is possible to define a "rising star" as an actor who shows a sudden surge overtime on a given metric. In this case, it would be needed to track the value of the metric over time for each actor and look for sudden spikes or increases in the value of the metric. However, It was rather difficult to identify a clear definition of a "sudden surge" that is suitable for all actors and metrics. Different actors may have different baseline level of importance within a community, making it challenging to define a universal threshold for what constitutes a "sudden surge". Ultimately we decided to drop this question and focus on more meaningful pursuits.
 
 2. Do actors' country of citizenship along with the dominant genre of movies they cooperate in fully explain the communities that are formed? If not, what other factors are at play?
 
-3. How do the communities evolve over time? Could the most noticeable changes be correlated to major global events?
+3. How do the communities evolve over time? Does gender parity improves over the lifespan of communities  ? 
 
 4. On which factors is a community homogeneous (citizenship, language spoken) and on which is it not (actor's genre, age)? 
+The goal of this question is to try to determine what links actors of the same communities , do actors who work together share the same features ? 
 
 ## Proposed additional datasets
 
@@ -28,11 +40,7 @@ The data collected from wikidata includes:
 
 ## Methods
 
-<<<<<<< HEAD
 **Step 1: Data scraping, pre-processing and dataset cleaning** <br>
-=======
-**Step 1: Data spre-processing and dataset cleaning** <br>
->>>>>>> 14bf241d292c855be0891adccb4fc67b85ae0c25
 We are going to use 2 of the provided files: the *movie_metadata* dataset and the *character_metadata* dataset. We decide to include all the available years in our study (namely from 1888 to 2016, since the dataset includes previsionned movies). The main features we want for our study are :
 - For the actors : gender, date of birth, nationality, occupations
 - For the movies : date of release, genres, languages
@@ -49,7 +57,7 @@ The first step is to clean the data by removing rows not including the needed fe
 **Step 2: Network creation and communities calculations** <br>
 For the network, we only keep pairs of actors that played in more than two movies together. Logically, the movies studied will only include those that have at least 2 actors. To reduce the size of the dataset, we only keep the movies with strictly more than 2 actors.
 Each node of the network is an actor, and each edge between two actors describes their number of common movies. Thus, a single movie will generate multiple edges (in fact $\sum_{1}^{N-1}$ edges, where N is the number of actors in the movie). Then the communities are computed via the Louvain algorithm. We will then use the communities populations to query actors country of citizenship and occupations from Wikidata . We only query these features for the actors of the top 20 communities for time constraints. The scraping and querying is done in the "scraping.ipynb" notebook.
->>>>>>> 14bf241d292c855be0891adccb4fc67b85ae0c25
+
 
 **Step 3: Characterize the actors within each communities** <br>
 For each communities, observe features such as citizenship, genre, occupation and birthdate. 
@@ -60,6 +68,7 @@ From the 2 previous steps, try to find overarching clustering feature(s) for eac
 
 **Step 5: Slice the analysis over time** <br>
 Perform a time analysis where we slice our network to only observe nodes and edges prior to the chosen year. For each community, how did it evolve over time? 
+For a certain time slice , we observe only the actors who played roles until that time and observe how the feature distribution in communities evolve . We expected for example to see more women playing in movies as years go by.
 
 **Step 6: Make a beautiful story out of our findings**
 
@@ -106,21 +115,15 @@ We will use the following methods:
     2. Move the node to the community that maximizes the increase in modularity.
 3. Return the communities.
 
-- It is worth mentioning that the Louvain algorithm is a heuristic algorithm and does not guarantee to find the optimal partition of the network. The randomisation of the algorithm can lead to different results each time it is run. In order to overcome this, for simplicity, we fixed the random seed, but in the future we might considere ways to  increase the determinism of the algorithm such as running it multiple times and taking the partition that maximizes the average modularity of the respective communities or potentially comparing multiple community discovery algorithms according to the same principle.
+- It is worth mentioning that the Louvain algorithm is a heuristic algorithm and does not guarantee to find the optimal partition of the network. The randomisation of the algorithm can lead to different results each time it is run. In order to overcome this, for simplicity, we ran the algorithm multiple times and taking the partition that maximizes the average modularity of the respective communities or potentially comparing multiple community discovery algorithms according to the same principle.
 
 
 
-## Proposed timeline
 
-- 25.11: step 1 and 2
-- 02.12: homework 2 :)
-- 09.12: step 3 and 4
-- 16.12: step 5
-- 23.12: step 6
 
 ## Team organization
 
-- Ahmed : scrapping, data processing, network actors analysis
-- Aziz : scrapping,  network time analysis, website
-- Loïc: organize meetings, network visualization, data processing
-- Solène : network visualization, data story, network movies analysis
+- Ahmed : scrapping, data processing, time slicing, map visualization
+- Aziz : scrapping,  network time analysis, communities characterization , notebook organization
+- Loïc: organize meetings, network visualization, inter-communities relationships, website
+- Solène : network visualization, data story, network movies analysis, website
