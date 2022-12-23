@@ -47,7 +47,7 @@ We are going to use 2 of the provided files: the *movie_metadata* dataset and th
 - For the movies : date of release, genres, languages
 
 
-The first step is to clean the data by removing rows not including the needed features, and try to scrape missing values. We also convert certain columns to interpretable and uniform formats (dates are converted in years, etc). Some actor names are not written in english, but this should not impact the study as we do not plan on studying names within a community. 
+
 
 **Step 2: Network creation and communities calculations** <br>
 For the network, we only keep pairs of actors that played in more than two movies together. Logically, the movies studied will only include those that have at least 2 actors. To reduce the size of the dataset, we only keep the movies with strictly more than 2 actors.
@@ -55,9 +55,6 @@ Each node of the network is an actor, and each edge between two actors describes
 
 The first step is to clean the data by removing rows not including the needed features. We also convert certain columns to interpretable and uniform formats (dates are converted in years, etc). Some actor names are not written in english, but this should not impact the study as we do not plan on studying names within a community. 
 
-**Step 2: Network creation and communities calculations** <br>
-For the network, we only keep pairs of actors that played in more than two movies together. Logically, the movies studied will only include those that have at least 2 actors. To reduce the size of the dataset, we only keep the movies with strictly more than 2 actors.
-Each node of the network is an actor, and each edge between two actors describes their number of common movies. Thus, a single movie will generate multiple edges (in fact $\sum_{1}^{N-1}$ edges, where N is the number of actors in the movie). Then the communities are computed via the Louvain algorithm. We will then use the communities populations to query actors country of citizenship and occupations from Wikidata . We only query these features for the actors of the top 20 communities for time constraints. The scraping and querying is done in the "scraping.ipynb" notebook.
 
 
 **Step 3: Characterize the actors within each communities** <br>
